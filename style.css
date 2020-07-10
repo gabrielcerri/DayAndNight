@@ -1,0 +1,119 @@
+@import url('animation.css');
+
+
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 99vh;
+	width: 99vw;
+	overflow: hidden;
+	/*background: black;*/
+}
+
+.grass {
+	position: relative;
+	bottom: -637px;
+	display: flex;
+	justify-content: center;
+
+}
+
+/*-----start special position to the cactus and plant*/
+ .plant {
+ 	position: relative;
+	bottom:2px; 
+}
+
+.cactus {
+	position: relative;
+	bottom: 2px;
+}
+
+/*-----end special position to the cactus and plant*/
+.plants {
+	position: relative;
+	bottom: -419px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.forest {
+	bottom: 25px;
+	position: relative;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.clouds {
+
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	bottom: 500px;  
+}
+
+
+/*-------start style of clouds-------*/
+
+.cloud1{
+	position: relative;
+	bottom: 50px;
+}
+
+.cloud2{
+	transform: rotateY(180deg);
+	position: relative;
+	bottom: 100px;
+	left: -100px;
+}
+
+
+.cloud3 {
+	position: relative;
+	bottom: 120px;
+	left: -100px;
+
+}
+
+
+.cloud4 {
+	transform: rotateY(180deg);
+	position: relative;
+	bottom: 20px;
+	left: -200px;
+}
+
+
+.outscreen {
+	position:absolute;
+	
+	
+	right: -1000px;
+
+}
+
+/*-------end style of clouds-------*/
+
+
+
+.sun {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	bottom:760px;
+
+	
+}
+
+
+
+.moon {
+	position: absolute;
+	top: 0;
+	left: -250px;
+}

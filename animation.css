@@ -1,0 +1,104 @@
+body {
+
+/*background: #1F1918;*/
+
+	animation: night 20s linear 2s infinite; 
+}
+
+@keyframes night {
+	
+
+
+
+	0% {background-color:#fff;}
+	20% {background-color:#C88647 ;}
+	40% {background-color:#37322E ;}
+	
+	50% {background-color:#151413 ;}
+
+	60% {background-color:#37322E ;}
+	80% {background-color:#C88647 ;}
+	100% {background-color:#fff;}
+	
+
+
+}
+
+
+.sun {
+
+	animation: movi 20s linear 2s infinite; 
+
+
+}
+
+@keyframes movi {
+	
+	
+	0% {left: 0;}
+	20% {left:-800px;  }
+	40% {left:-1400px; }
+	
+	50% {left:-1400px; }
+
+	60% {left:-1400px; }
+	80% {left:-800px; }
+	100% {left: 0;  }
+	
+
+
+	/*50%{left:-1400px;}*/
+	
+}
+
+
+.clouds {
+	animation: movclouds 50s linear 2s infinite;
+
+}
+
+
+
+@keyframes movclouds {
+	
+
+	0% {left: 0}
+	50%{left:-1200px;}	
+	100%{left: 0}
+
+	/*50%{left:-1400px;}*/
+	
+}
+
+
+.plants {
+	animation: movplants 20s linear 2s infinite; 
+
+}
+
+
+@keyframes movplants {
+
+	0% {bottom: -419px;}
+	20% {bottom:-538px;}
+	40% {bottom:-657px;}
+
+	50% {bottom:-776px;}
+
+	60%{bottom:-657px; }
+	80% {bottom:-538px;}
+	100% {bottom:-419px;}
+
+}
+
+.moon {
+	animation: movmoon 20s linear 2s infinite;
+}
+
+@keyframes movmoon {
+	0% {left:-250px}
+	25% {left: -250px}
+	50% {left:0}
+	60% {left: 0}
+	100%{left: -250px}
+}
