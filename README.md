@@ -1,3 +1,3 @@
 # DayAndNight
-[#### Day And Night!][https://gabrielcerri.github.io/DayAndNight/]
+[Day And Night!][https://gabrielcerri.github.io/DayAndNight/]
 
