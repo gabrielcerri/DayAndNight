@@ -136,12 +136,12 @@ body {
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
 
 
 	.grass {
 	position: relative;
-	bottom: -790px;
+	bottom: -770px;
 	display: flex;
 	justify-content: center;
 
