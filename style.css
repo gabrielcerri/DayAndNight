@@ -1,4 +1,5 @@
 @import url('animation.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 * {
@@ -7,10 +8,19 @@
 	box-sizing: border-box;
 }
 
+
 body {
-	height: 99vh;
-	width: 99vw;
 	overflow: hidden;
+}
+
+.container {
+
+
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+
 	/*background: black;*/
 }
 
@@ -116,4 +126,88 @@ body {
 	position: absolute;
 	top: 0;
 	left: -250px;
+}
+
+
+.plants-pos {
+	bottom: -776px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+
+	.grass {
+	position: relative;
+	bottom: -790px;
+	display: flex;
+	justify-content: center;
+
+	}
+
+	/*-----start special position to the cactus and plant*/
+	 .plant {
+	 	position: relative;
+		bottom:2px; 
+	}
+
+	.cactus {
+		position: relative;
+		bottom: 2px;
+	}
+
+	/*-----end special position to the cactus and plant*/
+	.plants {
+		position: relative;
+		bottom: -572px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.forest {
+		bottom: -160px;
+		position: relative;
+		opacity: 1;
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.moon {
+	position: absolute;
+	top: 50px;
+	left: -250px;
+	}
+
+	.early-plant {
+
+		position: relative;
+		bottom: 0;
+
+	}
+
+	.img-grass {
+
+		position: relative;
+		bottom: 0px;
+
+	}
+
+	.cloud3 {
+	
+	bottom: 115px;
+	
+}
+
+	.plants-pos {
+		bottom: -790px;
+	}
+
+
+	
+
+
+	
 }

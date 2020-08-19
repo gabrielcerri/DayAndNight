@@ -1,4 +1,4 @@
-body {
+.container-animation {
 
 /*background: #1F1918;*/
 
@@ -25,7 +25,7 @@ body {
 }
 
 
-.sun {
+.sun-animation {
 
 	animation: movi 20s linear 2s infinite; 
 
@@ -71,7 +71,9 @@ body {
 }
 
 
-.plants {
+
+
+/*.plants-animation {
 	animation: movplants 20s linear 2s infinite; 
 
 }
@@ -89,16 +91,66 @@ body {
 	80% {bottom:-538px;}
 	100% {bottom:-419px;}
 
-}
+}*/
 
-.moon {
-	animation: movmoon 20s linear 2s infinite;
+.moon-animation {
+	animation: movmoon 30s linear 2s infinite alternate;
 }
 
 @keyframes movmoon {
-	0% {left:-250px}
-	25% {left: -250px}
-	50% {left:0}
-	60% {left: 0}
-	100%{left: -250px}
+	0% {left:-250px;}
+	
+	50% {left:1000px;}
+	
+	100%{left: -250px;}
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+	
+	.sun-animation {
+
+	animation: movi 20s linear 2s infinite; 
+
+
+}
+
+@keyframes movi {
+	
+	
+	0% {left: 0;}
+	20% {left:-800px;  }
+	40% {left:-1600px; }
+	
+	50% {left:-1600px; }
+
+	60% {left:-1600px; }
+	80% {left:-800px; }
+	100% {left: 0;  }
+	
+
+
+	/*50%{left:-1400px;}*/
+	
+}
+
+.plants-animation {
+	animation: movplants 20s linear 2s infinite; 
+
+}
+
+
+@keyframes movplants {
+
+	0% {bottom: -572px;}
+	20% {bottom:-691px;}
+	40% {bottom:-730px;}
+
+	50% {bottom:-790px;}
+
+	60%{bottom:-730px; }
+	80% {bottom:-691px;}
+	100% {bottom:-572px;}
+
 }
